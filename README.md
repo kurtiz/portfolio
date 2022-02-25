@@ -1,63 +1,27 @@
-# CodeIgniter 4 Application Starter
+# Personal Porfolio Site
 
-## What is CodeIgniter?
+## What it contains....
 
-CodeIgniter is a PHP full-stack web framework that is light, fast, flexible and secure.
-More information can be found at the [official site](http://codeigniter.com).
+This site contains most of my personal projects and clients projects I have worked on.
+I can't post them all here because not all clients want their projects outside.
+It also contains some brief info about me. Who I am, my interests, skills etc. I have included my resume,
+its,content is on the site, but I have added its as a file too just iin case you want to download.
 
-This repository holds a composer-installable app starter.
-It has been built from the
-[development repository](https://github.com/codeigniter4/CodeIgniter4).
+I started my journey into the world of tech when I was a kid, as a graphic designer with a lot of interest 
+in software development. I gradually progressed into UI/UX Design and then later ventured into wen development.
+I still wanted more so continue to pursue Desktop and Mobile app development. I tried varies options in the
+mobile and desktop app development and found what suited my interest and was flexible and easy to work with
+I also love games to I pursued game development too. This might seem wild, irresponsible and indecisive, but
+trust me, this made me love technology more. I am a fast learner and love what I do. I believe this is enough to
+get me going.
 
-More information about the plans for version 4 can be found in [the announcement](http://forum.codeigniter.com/thread-62615.html) on the forums.
+You can visit my portfolio site to take a glimpse at my projects and that of clients.
+You can contact me on my socials:
 
-The user guide corresponding to this version of the framework can be found
-[here](https://codeigniter4.github.io/userguide/).
-
-## Installation & updates
-
-`composer create-project codeigniter4/appstarter` then `composer update` whenever
-there is a new release of the framework.
-
-When updating, check the release notes to see if there are any changes you might need to apply
-to your `app` folder. The affected files can be copied or merged from
-`vendor/codeigniter4/framework/app`.
-
-## Setup
-
-Copy `env` to `.env` and tailor for your app, specifically the baseURL
-and any database settings.
-
-## Important Change with index.php
-
-`index.php` is no longer in the root of the project! It has been moved inside the *public* folder,
-for better security and separation of components.
-
-This means that you should configure your web server to "point" to your project's *public* folder, and
-not to the project root. A better practice would be to configure a virtual host to point there. A poor practice would be to point your web server to the project root and expect to enter *public/...*, as the rest of your logic and the
-framework are exposed.
-
-**Please** read the user guide for a better explanation of how CI4 works!
-
-## Repository Management
-
-We use GitHub issues, in our main repository, to track **BUGS** and to track approved **DEVELOPMENT** work packages.
-We use our [forum](http://forum.codeigniter.com) to provide SUPPORT and to discuss
-FEATURE REQUESTS.
-
-This repository is a "distribution" one, built by our release preparation script.
-Problems with it can be raised on our forum, or as issues in the main repository.
-
-## Server Requirements
-
-PHP version 7.3 or higher is required, with the following extensions installed:
-
-- [intl](http://php.net/manual/en/intl.requirements.php)
-- [libcurl](http://php.net/manual/en/curl.requirements.php) if you plan to use the HTTP\CURLRequest library
-
-Additionally, make sure that the following extensions are enabled in your PHP:
-
-- json (enabled by default - don't turn it off)
-- [mbstring](http://php.net/manual/en/mbstring.installation.php)
-- [mysqlnd](http://php.net/manual/en/mysqlnd.install.php)
-- xml (enabled by default - don't turn it off)
+* [Facebook](https://www.facebook.com/brakhobbykurtiz).
+* [Instagram](https://www.instagram.com/brakhobbykurtiz/).
+* [LinkedIn](https://gh.linkedin.com/in/aaron-will-djaba-424b7a184).
+* [Quora](https://www.quora.com/profile/Aaron-Will-Djaba).
+* [Twitter](https://twitter.com/brakhobbykurtiz).
+* [e-Mail: OutLook](mailto:aaronwilldjaba@outlook.com).
+* [e-Mail: Gmail](mailto:papiliocurtis@gmail.com).
