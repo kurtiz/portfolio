@@ -41,10 +41,10 @@
 <header id="header">
     <div class="container">
 
-        <h1><a href="index.html">Emily Jones</a></h1>
+        <h1><a href="<?=base_url();?>">Aaron Will Djaba</a></h1>
         <!-- Uncomment below if you prefer to use an image logo -->
         <!-- <a href="index.html" class="mr-auto"><img src="<?=base_url();?>/public/img/logo.png" alt="" class="img-fluid"></a> -->
-        <h2>I'm a passionate <span>graphic designer</span> from New York</h2>
+        <h2>I'm a passionate <span id="roles-change-first">graphic</span> <span id="roles-change-second">designer</span> from Ghana</h2>
 
         <nav id="navbar" class="navbar">
             <ul>
@@ -59,10 +59,11 @@
         </nav><!-- .navbar -->
 
         <div class="social-links">
-            <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
-            <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
-            <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
-            <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></a>
+            <a href="https://www.quora.com/profile/Aaron-Will-Djaba" class="quora"><i class="bi bi-quora"></i></a>
+            <a href="https://www.instagram.com/brakhobbykurtiz/" class="instagram"><i class="bi bi-instagram"></i></a>
+            <a href="https://www.facebook.com/brakhobbykurtiz" class="facebook"><i class="bi bi-facebook"></i></a>
+            <a href="https://gh.linkedin.com/in/aaron-will-djaba-424b7a184" class="linkedin"><i class="bi bi-linkedin"></i></a>
+            <a href="https://twitter.com/brakhobbykurtiz" class="twitter"><i class="bi bi-twitter"></i></a>
         </div>
 
     </div>
@@ -761,7 +762,53 @@
     <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/personal-free-resume-bootstrap-template/ -->
     Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
 </div>
+<style>
+    div {
+        display:inline-block;
+        overflow:hidden;
+        white-space:nowrap;
+    }
 
+    #roles-change-first {
+        /* For increasing performance
+           ID/Class should've been used.
+           For a small demo
+           it's okaish for now */
+        animation: showup 7s infinite;
+    }
+
+    #roles-change-second {
+        width:0px;
+        animation: reveal 7s infinite;
+    }
+
+    #roles-change-second {
+        margin-left:-355px;
+        animation: slidein 7s infinite;
+    }
+
+    @keyframes showup {
+        0% {opacity:0;}
+        20% {opacity:1;}
+        80% {opacity:1;}
+        100% {opacity:0;}
+    }
+
+    @keyframes slidein {
+        0% { margin-left:-800px; }
+        20% { margin-left:-800px; }
+        35% { margin-left:0px; }
+        100% { margin-left:0px; }
+    }
+
+    @keyframes reveal {
+        0% {opacity:0;width:0px;}
+        20% {opacity:1;width:0px;}
+        30% {width:355px;}
+        80% {opacity:1;}
+        100% {opacity:0;width:355px;}
+    }
+</style>
 <!-- Vendor JS Files -->
 <script src="<?=base_url();?>/public/vendor/purecounter/purecounter.js"></script>
 <script src="<?=base_url();?>/public/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
