@@ -44,7 +44,15 @@
         <h1><a href="<?=base_url();?>">Aaron Will Djaba</a></h1>
         <!-- Uncomment below if you prefer to use an image logo -->
         <!-- <a href="index.html" class="mr-auto"><img src="<?=base_url();?>/public/img/logo.png" alt="" class="img-fluid"></a> -->
-        <h2>I'm a passionate <span id="roles-change-first">graphic</span> <span id="roles-change-second">designer</span> from Ghana</h2>
+        <h2>I'm a passionate</h2>
+        <h2 class="anim">
+            <span id="roles-change-first">
+                graphic
+            </span>
+            <span id="roles-change-second">
+                designer
+            </span>
+        </h2>
 
         <nav id="navbar" class="navbar">
             <ul>
@@ -763,47 +771,47 @@
     Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
 </div>
 <style>
-    div {
+    anim {
         display:inline-block;
         overflow:hidden;
         white-space:nowrap;
     }
-
+    
     #roles-change-first {
         /* For increasing performance
            ID/Class should've been used.
            For a small demo
-           it's okaish for now */
-        animation: showup 7s infinite;
+           it's okay for now */
+        animation: showUp 7s infinite;
     }
-
+    
     #roles-change-second {
-        width:0px;
+        width:0;
         animation: reveal 7s infinite;
     }
-
+    
     #roles-change-second {
         margin-left:-355px;
-        animation: slidein 7s infinite;
+        animation: slideIn 5s infinite;
     }
-
-    @keyframes showup {
+    
+    @keyframes showUp {
         0% {opacity:0;}
         20% {opacity:1;}
         80% {opacity:1;}
         100% {opacity:0;}
     }
-
-    @keyframes slidein {
-        0% { margin-left:-800px; }
-        20% { margin-left:-800px; }
-        35% { margin-left:0px; }
-        100% { margin-left:0px; }
+    
+    @keyframes slideIn {
+        0% {margin-left:-100px;}
+        20% {margin-left:-100px;}
+        35% { margin-left:0; }
+        100% { margin-left:0; }
     }
-
+    
     @keyframes reveal {
-        0% {opacity:0;width:0px;}
-        20% {opacity:1;width:0px;}
+        0% {opacity:0;width:0;}
+        20% {opacity:1;width:0;}
         30% {width:355px;}
         80% {opacity:1;}
         100% {opacity:0;width:355px;}
