@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-    <title>Personal Bootstrap Template</title>
+    <title>Aaron Will Djaba | Home</title>
     <meta content="" name="description">
     <meta content="" name="keywords">
 
@@ -26,7 +26,7 @@
 
     <!-- Template Main CSS File -->
     <link href="<?=base_url();?>/public/css/style.css" rel="stylesheet">
-
+    <script src="<?=base_url();?>/public/js/jquery-3.6.0.js"></script>
     <!-- =======================================================
     * Template Name: Personal - v4.7.0
     * Template URL: https://bootstrapmade.com/personal-free-resume-bootstrap-template/
@@ -44,13 +44,9 @@
         <h1><a href="<?=base_url();?>">Aaron Will Djaba</a></h1>
         <!-- Uncomment below if you prefer to use an image logo -->
         <!-- <a href="index.html" class="mr-auto"><img src="<?=base_url();?>/public/img/logo.png" alt="" class="img-fluid"></a> -->
-        <h2>I'm a passionate</h2>
-        <h2 class="anim">
-            <span id="roles-change-first">
-                graphic
-            </span>
-            <span id="roles-change-second">
-                designer
+        <h2>I'm a passionate
+            <span id="roles-change">
+                Graphic Designer
             </span>
         </h2>
 
@@ -764,57 +760,32 @@
 </section><!-- End Contact Section -->
 
 <div class="credits">
-    <!-- All the links in the footer should remain intact. -->
-    <!-- You can delete the links only if you purchased the pro version. -->
-    <!-- Licensing information: https://bootstrapmade.com/license/ -->
-    <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/personal-free-resume-bootstrap-template/ -->
-    Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+    
 </div>
 <style>
-    anim {
-        display:inline-block;
-        overflow:hidden;
-        white-space:nowrap;
-    }
-    
-    #roles-change-first {
-        /* For increasing performance
-           ID/Class should've been used.
-           For a small demo
-           it's okay for now */
-        animation: showUp 7s infinite;
-    }
-    
-    #roles-change-second {
-        width:0;
+    #roles-change {
         animation: reveal 7s infinite;
     }
-    
-    #roles-change-second {
-        margin-left:-355px;
-        animation: slideIn 5s infinite;
-    }
-    
-    @keyframes showUp {
-        0% {opacity:0;}
-        20% {opacity:1;}
-        80% {opacity:1;}
-        100% {opacity:0;}
-    }
-    
-    @keyframes slideIn {
-        0% {margin-left:-100px;}
-        20% {margin-left:-100px;}
-        35% { margin-left:0; }
-        100% { margin-left:0; }
-    }
-    
+
     @keyframes reveal {
-        0% {opacity:0;width:0;}
-        20% {opacity:1;width:0;}
-        30% {width:355px;}
-        80% {opacity:1;}
-        100% {opacity:0;width:355px;}
+        0% {
+            opacity: 0;
+            width: 0;
+        }
+        20% {
+            opacity: 1;
+            width: 0;
+        }
+        30% {
+            width: 355px;
+        }
+        80% {
+            opacity: 1;
+        }
+        100% {
+            opacity: 0;
+            width: 355px;
+        }
     }
 </style>
 <!-- Vendor JS Files -->
@@ -828,6 +799,25 @@
 
 <!-- Template Main JS File -->
 <script src="<?=base_url();?>/public/js/main.js"></script>
+<script>
+    function changeRole() {
+        let span = $("#roles-change")
+        let index = 0
+        let roles = Array("Web Developer", "Mobile/Desktop App Developer", "UI/UX Designer", "Game Developer", "Graphic Designer")
+        setInterval( () => {
+            if (index >= 5) {
+                index = 0
+                span.text(roles[index])
+            } else  {
+                span.text(roles[index])
+                index++
+            }
+        }, 7000)
+    }
+    $(document).ready(function (){
+        changeRole()
+    })
+</script>
 
 </body>
 
