@@ -561,7 +561,7 @@
                         <p>App</p>
                         <div class="portfolio-links">
                             <a href="<?=base_url();?>/public/img/portfolio/portfolio-1.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 1"><i class="bx bx-plus"></i></a>
-                            <a href="portfolio-details.html" data-gallery="portfolioDetailsGallery" data-glightbox="type: external" class="portfolio-details-lightbox" title="Portfolio Details"><i class="bx bx-link"></i></a>
+                            <a href="<?=base_url()?>" data-gallery="portfolioDetailsGallery" data-glightbox="type: external" class="portfolio-details-lightbox" title="Portfolio Details"><i class="bx bx-link"></i></a>
                         </div>
                     </div>
                 </div>
@@ -575,7 +575,7 @@
                         <p>Web</p>
                         <div class="portfolio-links">
                             <a href="<?=base_url();?>/public/img/portfolio/portfolio-2.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Web 3"><i class="bx bx-plus"></i></a>
-                            <a href="portfolio-details.html" data-gallery="portfolioDetailsGallery" data-glightbox="type: external" class="portfolio-details-lightbox" title="Portfolio Details"><i class="bx bx-link"></i></a>
+                            <a href="<?=base_url()?>" data-gallery="portfolioDetailsGallery" data-glightbox="type: external" class="portfolio-details-lightbox" title="Portfolio Details"><i class="bx bx-link"></i></a>
                         </div>
                     </div>
                 </div>
@@ -589,7 +589,7 @@
                         <p>App</p>
                         <div class="portfolio-links">
                             <a href="<?=base_url();?>/public/img/portfolio/portfolio-3.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 2"><i class="bx bx-plus"></i></a>
-                            <a href="portfolio-details.html" data-gallery="portfolioDetailsGallery" data-glightbox="type: external" class="portfolio-details-lightbox" title="Portfolio Details"><i class="bx bx-link"></i></a>
+                            <a href="<?=base_url()?>" data-gallery="portfolioDetailsGallery" data-glightbox="type: external" class="portfolio-details-lightbox" title="Portfolio Details"><i class="bx bx-link"></i></a>
                         </div>
                     </div>
                 </div>
@@ -603,7 +603,7 @@
                         <p>Card</p>
                         <div class="portfolio-links">
                             <a href="<?=base_url();?>/public/img/portfolio/portfolio-4.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Card 2"><i class="bx bx-plus"></i></a>
-                            <a href="portfolio-details.html" data-gallery="portfolioDetailsGallery" data-glightbox="type: external" class="portfolio-details-lightbox" title="Portfolio Details"><i class="bx bx-link"></i></a>
+                            <a href="<?=base_url()?>" data-gallery="portfolioDetailsGallery" data-glightbox="type: external" class="portfolio-details-lightbox" title="Portfolio Details"><i class="bx bx-link"></i></a>
                         </div>
                     </div>
                 </div>
@@ -617,7 +617,7 @@
                         <p>Web</p>
                         <div class="portfolio-links">
                             <a href="<?=base_url();?>/public/img/portfolio/portfolio-5.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Web 2"><i class="bx bx-plus"></i></a>
-                            <a href="portfolio-details.html" data-gallery="portfolioDetailsGallery" data-glightbox="type: external" class="portfolio-details-lightbox" title="Portfolio Details"><i class="bx bx-link"></i></a>
+                            <a href="<?=base_url()?>" data-gallery="portfolioDetailsGallery" data-glightbox="type: external" class="portfolio-details-lightbox" title="Portfolio Details"><i class="bx bx-link"></i></a>
                         </div>
                     </div>
                 </div>
@@ -631,7 +631,7 @@
                         <p>App</p>
                         <div class="portfolio-links">
                             <a href="<?=base_url();?>/public/img/portfolio/portfolio-6.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 3"><i class="bx bx-plus"></i></a>
-                            <a href="portfolio-details.html" data-gallery="portfolioDetailsGallery" data-glightbox="type: external" class="portfolio-details-lightbox" title="Portfolio Details"><i class="bx bx-link"></i></a>
+                            <a href="<?=base_url()?>" data-gallery="portfolioDetailsGallery" data-glightbox="type: external" class="portfolio-details-lightbox" title="Portfolio Details"><i class="bx bx-link"></i></a>
                         </div>
                     </div>
                 </div>
@@ -645,7 +645,7 @@
                         <p>Card</p>
                         <div class="portfolio-links">
                             <a href="<?=base_url();?>/public/img/portfolio/portfolio-7.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Card 1"><i class="bx bx-plus"></i></a>
-                            <a href="portfolio-details.html" data-gallery="portfolioDetailsGallery" data-glightbox="type: external" class="portfolio-details-lightbox" title="Portfolio Details"><i class="bx bx-link"></i></a>
+                            <a href="<?=base_url()?>" data-gallery="portfolioDetailsGallery" data-glightbox="type: external" class="portfolio-details-lightbox" title="Portfolio Details"><i class="bx bx-link"></i></a>
                         </div>
                     </div>
                 </div>
@@ -659,7 +659,7 @@
                         <p>Card</p>
                         <div class="portfolio-links">
                             <a href="<?=base_url();?>/public/img/portfolio/portfolio-8.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Card 3"><i class="bx bx-plus"></i></a>
-                            <a href="portfolio-details.html" data-gallery="portfolioDetailsGallery" data-glightbox="type: external" class="portfolio-details-lightbox" title="Portfolio Details"><i class="bx bx-link"></i></a>
+                            <a href="<?=base_url()?>" data-gallery="portfolioDetailsGallery" data-glightbox="type: external" class="portfolio-details-lightbox" title="Portfolio Details"><i class="bx bx-link"></i></a>
                         </div>
                     </div>
                 </div>
@@ -673,7 +673,7 @@
                         <p>Web</p>
                         <div class="portfolio-links">
                             <a href="<?=base_url();?>/public/img/portfolio/portfolio-9.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Web 3"><i class="bx bx-plus"></i></a>
-                            <a href="portfolio-details.html" data-gallery="portfolioDetailsGallery" data-glightbox="type: external" class="portfolio-details-lightbox" title="Portfolio Details"><i class="bx bx-link"></i></a>
+                            <a href="<?=base_url()?>" data-gallery="portfolioDetailsGallery" data-glightbox="type: external" class="portfolio-details-lightbox" title="Portfolio Details"><i class="bx bx-link"></i></a>
                         </div>
                     </div>
                 </div>
@@ -699,7 +699,7 @@
                 <div class="info-box">
                     <i class="bx bx-map"></i>
                     <h3>My Address</h3>
-                    <p>A108 Adam Street, New York, NY 535022</p>
+                    <p>Pokuase, Accra - Ghana</p>
                 </div>
             </div>
 
@@ -708,11 +708,11 @@
                     <i class="bx bx-share-alt"></i>
                     <h3>Social Profiles</h3>
                     <div class="social-links">
-                        <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
-                        <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
-                        <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
-                        <a href="#" class="google-plus"><i class="bi bi-skype"></i></a>
-                        <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></a>
+                        <a href="https://www.quora.com/profile/Aaron-Will-Djaba" class="quora"><i class="bi bi-quora"></i></a>
+                        <a href="https://www.instagram.com/brakhobbykurtiz/" class="instagram"><i class="bi bi-instagram"></i></a>
+                        <a href="https://www.facebook.com/brakhobbykurtiz" class="facebook"><i class="bi bi-facebook"></i></a>
+                        <a href="https://gh.linkedin.com/in/aaron-will-djaba-424b7a184" class="linkedin"><i class="bi bi-linkedin"></i></a>
+                        <a href="https://twitter.com/brakhobbykurtiz" class="twitter"><i class="bi bi-twitter"></i></a>
                     </div>
                 </div>
             </div>
@@ -721,19 +721,21 @@
                 <div class="info-box">
                     <i class="bx bx-envelope"></i>
                     <h3>Email Me</h3>
-                    <p>contact@example.com</p>
+                    <p><a href="mailto:aaronwilldjaba@outlook.com">aaronwilldjaba@outlook.com</a></p>
+                    <p><a href="mailto:papiliocurtis@gmail.com">papiliocurtis@gmail.com</a></p>
                 </div>
             </div>
             <div class="col-md-6 mt-4 d-flex align-items-stretch">
                 <div class="info-box">
                     <i class="bx bx-phone-call"></i>
                     <h3>Call Me</h3>
-                    <p>+1 5589 55488 55</p>
+                    <p><a href="tel:233550656272">+233 55 065 6272</a></p>
+                    <p><a href="tel:233595987451">+233 59 598 7451</a></p>
                 </div>
             </div>
         </div>
 
-        <form action="forms/contact.php" method="post" role="form" class="php-email-form mt-4">
+        <form method="post" id="form-contact" role="form" class="php-email-form mt-4">
             <div class="row">
                 <div class="col-md-6 form-group">
                     <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
@@ -746,14 +748,14 @@
                 <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required>
             </div>
             <div class="form-group mt-3">
-                <textarea class="form-control" name="message" rows="5" placeholder="Message" required></textarea>
+                <textarea class="form-control" name="message" id="message" rows="5" placeholder="Message" required></textarea>
             </div>
             <div class="my-3">
-                <div class="loading">Loading</div>
-                <div class="error-message"></div>
-                <div class="sent-message">Your message has been sent. Thank you!</div>
+                <div id="loading" class="loading">Loading</div>
+                <div id="error" class="error-message"></div>
+                <div id="success" class="sent-message">Your message has been sent. Thank you!</div>
             </div>
-            <div class="text-center"><button type="submit">Send Message</button></div>
+            <div class="text-center"><button id="send" type="button">Send Message</button></div>
         </form>
 
     </div>
@@ -795,7 +797,6 @@
 <script src="<?=base_url();?>/public/vendor/isotope-layout/isotope.pkgd.min.js"></script>
 <script src="<?=base_url();?>/public/vendor/swiper/swiper-bundle.min.js"></script>
 <script src="<?=base_url();?>/public/vendor/waypoints/noframework.waypoints.js"></script>
-<script src="<?=base_url();?>/public/vendor/php-email-form/validate.js"></script>
 
 <!-- Template Main JS File -->
 <script src="<?=base_url();?>/public/js/main.js"></script>
@@ -816,6 +817,58 @@
     }
     $(document).ready(function (){
         changeRole()
+    })
+    let name = $("#name")
+    let email =  $("#email")
+    let subject = $("#subject")
+    let message = $("#message")
+    let error = $("#error")
+    let success = $("#success")
+    let loading = $("#loading")
+    let expression = new RegExp("[a-zA-Z0-9._-]{3,}@[a-zA-Z0-9.-]{3,}\.[a-zA-Z]{2,4}")
+
+    $("#send").on("click", function() {
+        if (name.val() === "") {
+            error.text("Please enter name!")
+            error.addClass("d-block")
+            name.focus()
+        } else if (email.val() === ""){
+            error.text("Please enter email!")
+            error.addClass("d-block")
+            email.focus()
+        } else if (!expression.test(email.val())){
+            error.text("Please enter a valid email!")
+            error.addClass("d-block")
+            email.focus()
+        } else if (subject.val() === ""){
+            error.text("Please enter subject!")
+            error.addClass("d-block")
+            subject.focus()
+        } else if (message.val() === ""){
+            error.text("Please enter message!")
+            error.addClass("d-block")
+            message.focus()
+        } else {
+            error.text("")
+            error.removeClass("d-block")
+            loading.addClass("d-block")
+            setTimeout(() => {
+                loading.removeClass("d-block")
+                name.val("")
+                email.val("")
+                subject.val("")
+                message.val("")
+                success.addClass("d-block")
+
+                setTimeout(() => {
+                    success.removeClass("d-block")
+                }, 2000)
+
+            }, 1500)
+
+
+
+        }
     })
 </script>
 

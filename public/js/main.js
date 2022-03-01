@@ -79,7 +79,7 @@
         navbarToggle.classList.toggle('bi-x')
       }
 
-      if (this.hash == '#header') {
+      if (this.hash === '#header') {
         header.classList.remove('header-top')
         sections.forEach((item) => {
           item.classList.remove('section-show')
@@ -121,7 +121,7 @@
         header.classList.add('header-top')
 
         navlinks.forEach((item) => {
-          if (item.getAttribute('href') == window.location.hash) {
+          if (item.getAttribute('href') === window.location.hash) {
             item.classList.add('active')
           } else {
             item.classList.remove('active')
