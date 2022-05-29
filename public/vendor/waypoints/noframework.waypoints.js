@@ -220,7 +220,7 @@ https://github.com/imakewebthings/waypoints/blob/master/licenses.txt
   Context.prototype.checkEmpty = function() {
     var horizontalEmpty = this.Adapter.isEmptyObject(this.waypoints.horizontal)
     var verticalEmpty = this.Adapter.isEmptyObject(this.waypoints.vertical)
-    var isWindow = this.element == this.element.window
+    var isWindow = this.element === this.element.window
     if (horizontalEmpty && verticalEmpty && !isWindow) {
       this.adapter.off('.waypoints')
       delete contexts[this.key]
@@ -229,7 +229,7 @@ https://github.com/imakewebthings/waypoints/blob/master/licenses.txt
 
   /* Private */
   Context.prototype.createThrottledResizeHandler = function() {
-    var self = this
+    const self = this;
 
     function resizeHandler() {
       self.handleResize()
@@ -246,7 +246,8 @@ https://github.com/imakewebthings/waypoints/blob/master/licenses.txt
 
   /* Private */
   Context.prototype.createThrottledScrollHandler = function() {
-    var self = this
+    const self = this;
+
     function scrollHandler() {
       self.handleScroll()
       self.didScroll = false
@@ -317,7 +318,7 @@ https://github.com/imakewebthings/waypoints/blob/master/licenses.txt
   /* Private */
   Context.prototype.innerHeight = function() {
     /*eslint-disable eqeqeq */
-    if (this.element == this.element.window) {
+    if (this.element === this.element.window) {
       return Waypoint.viewportHeight()
     }
     /*eslint-enable eqeqeq */
@@ -333,7 +334,7 @@ https://github.com/imakewebthings/waypoints/blob/master/licenses.txt
   /* Private */
   Context.prototype.innerWidth = function() {
     /*eslint-disable eqeqeq */
-    if (this.element == this.element.window) {
+    if (this.element === this.element.window) {
       return Waypoint.viewportWidth()
     }
     /*eslint-enable eqeqeq */
@@ -358,7 +359,7 @@ https://github.com/imakewebthings/waypoints/blob/master/licenses.txt
   /* http://imakewebthings.com/waypoints/api/context-refresh */
   Context.prototype.refresh = function() {
     /*eslint-disable eqeqeq */
-    var isWindow = this.element == this.element.window
+    var isWindow = this.element === this.element.window
     /*eslint-enable eqeqeq */
     var contextOffset = isWindow ? undefined : this.adapter.offset()
     var triggeredGroups = {}
