@@ -1028,5 +1028,16 @@ section .container {
   background: #ffc107;
   border-color: #ffc107;
   transition: 0.4s ease-in;
+}
 
+#main-name {
+  text-shadow: 6px 6px 3px black;
+}
+
+#skill {
+  text-shadow: -1px 2px 0 black;
+}
+
+#home-social {
+  text-shadow: 6px 6px 10px black;
 }

@@ -36,7 +36,9 @@
 <header id="header">
     <div class="container">
 
-        <h1><a href="<?=base_url();?>">Aaron Will Djaba</a></h1>
+        <h1 id="main-name">
+            <a href="<?= base_url(); ?>">Aaron Will Djaba</a>
+        </h1>
         <?php
         /*
             <!-- Uncomment below if you prefer to use an image logo -->
@@ -60,7 +62,7 @@
             <i class="bi bi-list mobile-nav-toggle"></i>
         </nav><!-- .navbar -->
 
-        <div class="social-links">
+        <div id="home-social" class="social-links">
             <a href="https://www.quora.com/profile/Aaron-Will-Djaba" class="quora"><i class="bi bi-quora"></i></a>
             <a href="https://www.instagram.com/brakhobbykurtiz/" class="instagram"><i class="bi bi-instagram"></i></a>
             <a href="https://www.facebook.com/brakhobbykurtiz" class="facebook"><i class="bi bi-facebook"></i></a>
