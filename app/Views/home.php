@@ -566,7 +566,7 @@
                         <p>Card</p>
                         <div class="portfolio-links">
                             <a href="<?=base_url();?>/public/img/portfolio/portfolio-4.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Card 2"><i class="bx bx-plus"></i></a>
-                            <a href="<?=base_url()?>" data-gallery="portfolioDetailsGallery" data-glightbox="type: external" class="portfolio-details-lightbox" title="Portfolio Details"><i class="bx bx-link"></i></a>
+                            <a href="<?=base_url();?>" data-gallery="portfolioDetailsGallery" data-glightbox="type: external" class="portfolio-details-lightbox" title="Portfolio Details"><i class="bx bx-link"></i></a>
                         </div>
                     </div>
                 </div>
