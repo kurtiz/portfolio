@@ -6,7 +6,7 @@
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
     <title>Aaron Will Djaba | Home</title>
-    <meta content="" name="description">
+    <meta content="I am Aaron Will Djaba. I am a tech enthusiast and I love coding." name="description">
     <meta content="" name="keywords">
 
     <!-- Favicons -->
@@ -24,15 +24,10 @@
     <link href="<?=base_url();?>/public/vendor/remixicon/remixicon.css" rel="stylesheet">
     <link href="<?=base_url();?>/public/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
 
-    <!-- Template Main CSS File -->
+    <!-- Main CSS File -->
     <link href="<?=base_url();?>/public/css/style.css" rel="stylesheet">
     <script src="<?=base_url();?>/public/js/jquery-3.6.0.js"></script>
-    <!-- =======================================================
-    * Template Name: Personal - v4.7.0
-    * Template URL: https://bootstrapmade.com/personal-free-resume-bootstrap-template/
-    * Author: BootstrapMade.com
-    * License: https://bootstrapmade.com/license/
-    ======================================================== -->
+
 </head>
 
 <body>
@@ -42,8 +37,11 @@
     <div class="container">
 
         <h1><a href="<?=base_url();?>">Aaron Will Djaba</a></h1>
-        <!-- Uncomment below if you prefer to use an image logo -->
-        <!-- <a href="index.html" class="mr-auto"><img src="<?=base_url();?>/public/img/logo.png" alt="" class="img-fluid"></a> -->
+        <?php
+        /*
+            <!-- Uncomment below if you prefer to use an image logo -->
+            <!-- <a href="index.html" class="mr-auto"><img src="<?=base_url();?>/public/img/logo.png" alt="" class="img-fluid"></a> --> */
+        ?>
         <h2 id="skill">I'm a passionate
             <span id="roles-change" class="">
                 Graphic Designer
@@ -91,7 +89,7 @@
             <div class="col-lg-8 pt-4 pt-lg-0 content" data-aos="fade-left">
                 <h3>Aaron Will Djaba</h3>
                 <p class="fst-italic">
-                   I am open minded, docile and versatile. I love sports and video games and I am a Tech Enthusiast.
+                   I am open-minded, docile and versatile. I love sports and video games and I am a Tech Enthusiast.
                 </p>
                 <div class="row">
                     <div class="col-lg-12">
@@ -770,7 +768,7 @@
         let index = 0
         let roles = Array("Web Developer", "Mobile/Desktop App Developer", "UI/UX Designer", "Game Developer", "Graphic Designer")
         setInterval( () => {
-            if (index >= 5) {
+            if (index > 4) {
                 index = 0
                 span.addClass("role-change")
                 span.text(roles[index])
@@ -785,11 +783,13 @@
                 }, 2000)
                 index++
             }
-        }, 7000)
+        }, 1000)
     }
+
     $(document).ready(function (){
         changeRole()
     })
+    
     let name = $("#name")
     let email =  $("#email")
     let subject = $("#subject")
