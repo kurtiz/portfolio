@@ -1,6 +1,7 @@
+![time spent](https://wakatime.com/badge/user/9657174f-2430-4dfd-aaef-2b316eb71a36/project/11cbbe9e-0f77-4ffe-81f4-c0dad30051cd.svg)
 # Personal Porfolio Site
-
 ## What it contains....
+
 
 This site contains most of my personal projects and clients projects I have worked on.
 I can't post them all here because not all clients want their projects outside.
