@@ -9,14 +9,14 @@ It also contains some brief info about me. Who I am, my interests, skills etc. I
 its,content is on the site, but I have added its as a file too just iin case you want to download.
 
 I started my journey into the world of tech when I was a kid, as a graphic designer with a lot of interest 
-in software development. I gradually progressed into UI/UX Design and then later ventured into wen development.
-I still wanted more so continue to pursue Desktop and Mobile app development. I tried varies options in the
+in software development. I gradually progressed into UI/UX Design and then later ventured into web development.
+I still wanted more so continue to pursue Desktop and Mobile app development. I tried various options in the
 mobile and desktop app development and found what suited my interest and was flexible and easy to work with
-I also love games to I pursued game development too. This might seem wild, irresponsible and indecisive, but
+I also love games so I pursued game development too. This might seem wild, irresponsible and indecisive, but
 trust me, this made me love technology more. I am a fast learner and love what I do. I believe this is enough to
 get me going.
 
-You can visit my portfolio site to take a glimpse at my projects and that of clients.
+You can visit my [portfolio site](https://aaron.ourtechnologies.org) to take a glimpse at my projects and that of clients.
 You can contact me on my socials:
 
 * [Facebook](https://www.facebook.com/brakhobbykurtiz).
