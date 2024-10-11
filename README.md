@@ -1,28 +1,50 @@
-![time spent](https://wakatime.com/badge/user/9657174f-2430-4dfd-aaef-2b316eb71a36/project/11cbbe9e-0f77-4ffe-81f4-c0dad30051cd.svg)
-# Personal Porfolio Site
-## What it contains....
+# React + TypeScript + Vite
 
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-This site contains most of my personal projects and clients projects I have worked on.
-I can't post them all here because not all clients want their projects outside.
-It also contains some brief info about me. Who I am, my interests, skills etc. I have included my resume,
-its,content is on the site, but I have added its as a file too just iin case you want to download.
+Currently, two official plugins are available:
 
-I started my journey into the world of tech when I was a kid, as a graphic designer with a lot of interest 
-in software development. I gradually progressed into UI/UX Design and then later ventured into web development.
-I still wanted more so continue to pursue Desktop and Mobile app development. I tried various options in the
-mobile and desktop app development and found what suited my interest and was flexible and easy to work with
-I also love games so I pursued game development too. This might seem wild, irresponsible and indecisive, but
-trust me, this made me love technology more. I am a fast learner and love what I do. I believe this is enough to
-get me going.
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-You can visit my [portfolio site](https://aaron.ourtechnologies.org) to take a glimpse at my projects and that of clients.
-You can contact me on my socials:
+## Expanding the ESLint configuration
 
-* [Facebook](https://www.facebook.com/brakhobbykurtiz).
-* [Instagram](https://www.instagram.com/brakhobbykurtiz/).
-* [LinkedIn](https://gh.linkedin.com/in/aaron-will-djaba-424b7a184).
-* [Quora](https://www.quora.com/profile/Aaron-Will-Djaba).
-* [Twitter](https://twitter.com/brakhobbykurtiz).
-* [e-Mail: OutLook](mailto:aaronwilldjaba@outlook.com).
-* [e-Mail: Gmail](mailto:papiliocurtis@gmail.com).
+If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+
+- Configure the top-level `parserOptions` property like this:
+
+```js
+export default tseslint.config({
+  languageOptions: {
+    // other options...
+    parserOptions: {
+      project: ['./tsconfig.node.json', './tsconfig.app.json'],
+      tsconfigRootDir: import.meta.dirname,
+    },
+  },
+})
+```
+
+- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
+- Optionally add `...tseslint.configs.stylisticTypeChecked`
+- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+
+```js
+// eslint.config.js
+import react from 'eslint-plugin-react'
+
+export default tseslint.config({
+  // Set the react version
+  settings: { react: { version: '18.3' } },
+  plugins: {
+    // Add the react plugin
+    react,
+  },
+  rules: {
+    // other rules...
+    // Enable its recommended rules
+    ...react.configs.recommended.rules,
+    ...react.configs['jsx-runtime'].rules,
+  },
+})
+```
