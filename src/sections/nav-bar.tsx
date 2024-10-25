@@ -11,7 +11,7 @@ const Navbar = () => {
     const handleTabClick = (tab: string) => {
         setActiveTab(tab);
         // Scroll to the section of the clicked tab
-        document.getElementById(tab.toLowerCase())?.scrollIntoView({behavior: 'smooth'});
+        setIsOpen(false);
     };
 
     // Handle dynamic active tab based on scroll
@@ -70,6 +70,7 @@ const Navbar = () => {
                             >
                                 <motion.a
                                     className={`px-6 py-3 rounded-full text-center transition-all duration-200`}
+                                    href={`#${item.toLowerCase()}`}
                                 >
                                     {item}
                                 </motion.a>
@@ -77,7 +78,7 @@ const Navbar = () => {
                         ))}
                     </ul>
                 </div>
-                <div className="flex flex-col items-center">
+                <div className="flex flex-col items-end mr-2 w-full md:w-auto">
                     <div className="md:hidden bg-white p-3 items-center justify-center rounded-full font-black flex">
                         <button onClick={() => setIsOpen(!isOpen)}>
                             {isOpen ? <IoCloseOutline className="h-6 w-6"/> : <IoMenu className="h-6 w-6"/>}
@@ -114,7 +115,6 @@ const Navbar = () => {
                                             exit={{opacity: 0, y: -20}}
                                             whileHover={{scale: 1.1}}
                                             onClick={() => {
-                                                setIsOpen(false);
                                                 handleTabClick(item);
                                             }}
                                         >
@@ -122,6 +122,7 @@ const Navbar = () => {
                                                 className={`px-6 py-3 flex-1 rounded-md text-center text-3xl w-full transition-all duration-200 text-black ${
                                                     activeTab === item ? 'font-black bg-white' : ''
                                                 }`}
+                                                href={`#${item.toLowerCase()}`}
                                             >
                                                 {item}
                                             </motion.a>

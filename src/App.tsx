@@ -6,9 +6,10 @@ import AboutSection from "./sections/about-section.tsx";
 import SkillsSection from "./sections/skills-section.tsx";
 
 const App: React.FC = () => {
+
     return (
         <>
-            <div className="snap-y h-screen overflow-y-scroll no-scrollbar scroll-smooth">
+            <div className="h-screen overflow-y-scroll no-scrollbar scroll-smooth">
                 <Navbar/>
                 {/* Hero Section */}
                 <HeroSection/>
